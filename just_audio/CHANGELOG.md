@@ -2,9 +2,10 @@
 
 * Support AGP 9.
 * Migrate Android build files to .kts
-* Migrate to media3 ExoPlayer 1.7.1 on Android.
+* Update to media3 ExoPlayer 1.9.0 on Android.
 * Update to media3 ExoPlayer 1.8.1 on Android for upstream audio timestamp and Bluetooth sync fixes.
-* Bump Android minSdk to 21 to match Media3 1.5.0.
+* Update to media3 ExoPlayer 1.9.1 on Android for upstream playlist, wake lock and scheduling fixes.
+* Bump Android minSdk to 23 to match Media3 1.9.0.
 * Handle the asynchronous initial Android audio session ID introduced by Media3 1.6.0.
 
 ## 0.10.5
