@@ -68,7 +68,7 @@ android {
 }
 
 dependencies {
-    val exoplayerVersion = "1.9.1"
+    val exoplayerVersion = "1.10.1"
     implementation("androidx.media3:media3-exoplayer:$exoplayerVersion")
     implementation("androidx.media3:media3-exoplayer-dash:$exoplayerVersion")
     implementation("androidx.media3:media3-exoplayer-hls:$exoplayerVersion")

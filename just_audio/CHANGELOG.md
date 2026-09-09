@@ -5,6 +5,7 @@
 * Update to media3 ExoPlayer 1.9.0 on Android.
 * Update to media3 ExoPlayer 1.8.1 on Android for upstream audio timestamp and Bluetooth sync fixes.
 * Update to media3 ExoPlayer 1.9.1 on Android for upstream playlist, wake lock and scheduling fixes.
+* Update to media3 ExoPlayer 1.10.1 on Android for upstream audio session ID and tunneling fixes.
 * Bump Android minSdk to 23 to match Media3 1.9.0.
 * Handle the asynchronous initial Android audio session ID introduced by Media3 1.6.0.
 
