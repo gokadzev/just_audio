@@ -497,7 +497,7 @@ public class AudioPlayer implements MethodCallHandler, Player.Listener, Metadata
                 break;
             case "concatenatingInsertAll":
                 if (((String)call.argument("id")).length() == 0) {
-                    player.addMediaSources(call.argument("index"), getAudioSources(call.argument("children"))); 
+                    player.addMediaSources(call.argument("index"), getAudioSources(call.argument("children")));
                     player.setShuffleOrder(decodeShuffleOrder(call.argument("shuffleOrder")));
                     result.success(new HashMap<String, Object>());
                 } else {
@@ -798,7 +798,6 @@ public class AudioPlayer implements MethodCallHandler, Player.Listener, Metadata
                     .setAudioOffloadPreferences(audioOffloadPreferences)
                     .build()
             );
-            setAudioSessionId(player.getAudioSessionId());
             player.addListener(this);
         }
     }
