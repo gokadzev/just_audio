@@ -2,7 +2,7 @@
 
 * Support AGP 9.
 * Migrate Android build files to .kts
-* Migrate to media3 ExoPlayer 1.6.1 on Android.
+* Migrate to media3 ExoPlayer 1.7.1 on Android.
 * Bump Android minSdk to 21 to match Media3 1.5.0.
 * Handle the asynchronous initial Android audio session ID introduced by Media3 1.6.0.
 
